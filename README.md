@@ -18,3 +18,6 @@ The included gitignore file protects your environment variables and local folder
 
 ## Disclaimer
 Educational purposes only. Please check the website terms of service before use.
+
+## Challenge Overcome
+One challenge was handling dynamic cookie banners. I implemented a robust wait system using WebDriverWait and targeted the specific Cookiebot ID to ensure the search fields were accessible.

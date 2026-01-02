@@ -1,22 +1,22 @@
-# Python bytecode
+# IDEs and Editors
+.idea/
+.vscode/
+*.swp
+*.swo
+
+# Python and Virtual Environments
 __pycache__/
 *.py[cod]
-
-# Environments
-.venv/
+*$py.class
 venv/
-ENV/
 env/
+.venv/
 
-# Sensitive files
+# Environment and Secrets
 .env
+.env.local
 secret.json
 
-# Selenium/Drivers
-chromedriver
-geckodriver
+# Selenium logs
 ghostdriver.log
-*.log
-
-# Mac system files
-.DS_Store
+selenium.log

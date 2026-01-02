@@ -1,0 +1,22 @@
+# Python bytecode
+__pycache__/
+*.py[cod]
+
+# Environments
+.venv/
+venv/
+ENV/
+env/
+
+# Sensitive files
+.env
+secret.json
+
+# Selenium/Drivers
+chromedriver
+geckodriver
+ghostdriver.log
+*.log
+
+# Mac system files
+.DS_Store
